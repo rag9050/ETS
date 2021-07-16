@@ -1,0 +1,53 @@
+﻿ .gridview
+{
+    width: 100%;
+    background-color: #fff;
+    margin: 1px 0 5px 0;
+    border: solid 1px #3f4e60;
+    border-collapse:collapse;
+}
+.gridview td
+{
+    padding: 2px;
+    border: solid 1px #3f4e60;
+    color: #717171;
+}
+.gridview th
+{
+    padding: 4px 2px;
+    color: #c9e1fe;
+    background: #3366a1;
+    border-left: solid 1px #3f4e60;
+    font-size: 0.9em;
+}
+/*.gridview .gridview_alter 
+{
+    background: #c8d7e9;
+}*/
+.gridview .gridview_pager 
+{
+    background: #3366a1;
+}
+.gridview .gridview_pager table 
+{
+    margin: 5px 0;
+}
+.gridview .gridview_pager td
+{
+    border-width: 0;
+    padding: 0 6px;
+    border-left: solid 1px #666;
+    font-weight: bold;
+    color: #c9e1fe;
+    line-height: 5px;
+ }  
+.gridview .gridview_pager a 
+{
+    color: #c9e1fe;
+    text-decoration: none;
+}
+.gridview .gridview_pager a:hover 
+{
+    color: #000;
+    text-decoration: none;
+}

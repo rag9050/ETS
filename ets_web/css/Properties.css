@@ -1,0 +1,129 @@
+﻿ .textbox
+      {
+          /*border:1px solid #7e98c6;*/
+          font-size:10px;
+          padding:1px 1px 1px 3px;
+          width:200px;
+          height: 18px;
+      }
+      
+ .mandatory-textbox
+ {
+     background-color: #f5c6a3;
+     font-size:12px;     
+     Width:200px; 
+     Height:16px;
+     }
+     
+          
+.title
+{
+	font :  bold 14px Verdana;
+	color:#204279;
+	text-decoration:underline;
+	text-transform:uppercase;	
+	text-align:center;
+}
+
+.subtitle                                 /*SubTitle Properties*/	
+{
+	font: bold 13px Verdana;
+    color: #0F46A1;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+
+	
+.button
+{
+    border:1px solid #335FA8;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-family:arial, helvetica, sans-serif;
+    padding-bottom:1px;
+    text-decoration:none;
+    /*padding: 0px 7px 0px 4px;*/
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    font-weight:bold; 
+    text-align:center;
+    color: #FFFFFF;
+    background-color: #4D81BF;
+    background-image: linear-gradient(top, #606c88, #3f4c6b);
+    text-decoration: none;
+    min-width: 150px;
+    height:23px;
+    }
+.button:hover                             /*Button mouse over Properties*/
+{
+    border:1px solid #4D81BF;
+    background-color : #4D5866;
+    background-image: linear-gradient(top, #4b546a, #2c354b);
+}
+
+
+.link                                    /*Linkbutton*/
+{
+    font-family:Calibri;
+    color: #424242;  
+    text-decoration:none; 
+    font-weight:bold; 
+}
+.link:hover
+{
+    color:Gray;
+    border:solid 1px Gray;
+}
+
+.border                                     /*Border Properties*/
+{
+	border:1px solid #335FA8;
+    padding:30px ; 
+    background:#b6cef6;    
+    border-radius:12px;
+    -moz-border-radius:25px; /* Firefox 3.6 and earlier */
+    margin:0 auto;
+}
+
+.Tab                                     /* Tab Properties*/
+{
+border:1px solid #335FA8;
+     background:#E9EAD8;       
+    border-radius:6px;    
+    margin:0 auto;
+    padding:2px 5px 2px 2px;  
+}
+.err
+{
+    font-size:13px;
+    background-color:#FF6633;
+    width:100%;
+    padding:3px 0px 0px 10px;
+    height:20px;
+}
+.suc
+{
+   font-size:13px;
+    background-color:#99FF33;
+    width:100%;
+    padding:3px 0px 0px 10px;
+    height:20px;
+}
+
+.war
+{
+   font-size:13px;
+    background-color:#FFCC00;
+    width:100%;
+    padding:3px 0px 0px 10px;
+    height:20px;
+}
+
+.grid_div
+{
+    margin-top:20px;
+}
+.errmsg{
+    color:red;
+}
