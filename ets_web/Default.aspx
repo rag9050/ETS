@@ -20,7 +20,7 @@
                         </li>
                         <li>
                             <asp:Label runat="server" AssociatedControlID="Password">Password</asp:Label>
-                            <asp:TextBox runat="server" ID="Password" TextMode="Password" CssClass="manadatory-textbox alphanumeric" />
+                            <asp:TextBox runat="server" ID="Password" TextMode="Password" CssClass="manadatory-textbox alphanumeric" /> 
                         </li>
                         <li>
                             <asp:CheckBox runat="server" ID="RememberMe" Enabled="true" Checked="true" />
