@@ -16,7 +16,7 @@
                     <ol>
                         <li>
                             <asp:Label runat="server" AssociatedControlID="UserName">User name</asp:Label>
-                            <asp:TextBox ID="UserName" runat="server" CssClass="manadatory-textbox alphanumeric" />
+                            <asp:TextBox ID="UserName" runat="server" CssClass="manadatory-textbox alphanumeric" /> 
                         </li>
                         <li>
                             <asp:Label runat="server" AssociatedControlID="Password">Password</asp:Label>
